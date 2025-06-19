@@ -33,7 +33,6 @@ let package = Package(
             name: "FFmpegKit",
             dependencies: [
                 "MoltenVK",
-                "libshaderc_combined",
                 "lcms2",
                 "libdav1d",
                 "libplacebo",
@@ -131,57 +130,24 @@ let package = Package(
             path: "Sources/MoltenVK.xcframework"
         ),
         .binaryTarget(
-            name: "libshaderc_combined",
-            path: "Sources/libshaderc_combined.xcframework"
-        ),
-
-        .binaryTarget(
             name: "lcms2",
             path: "Sources/lcms2.xcframework"
-        ),
-        .binaryTarget(
-            name: "libplacebo",
-            path: "Sources/libplacebo.xcframework"
         ),
         .binaryTarget(
             name: "libdav1d",
             path: "Sources/libdav1d.xcframework"
         ),
         .binaryTarget(
-            name: "Libavcodec",
-            path: "Sources/Libavcodec.xcframework"
-        ),
-        .binaryTarget(
-            name: "Libavdevice",
-            path: "Sources/Libavdevice.xcframework"
-        ),
-        .binaryTarget(
-            name: "Libavfilter",
-            path: "Sources/Libavfilter.xcframework"
-        ),
-        .binaryTarget(
-            name: "Libavformat",
-            path: "Sources/Libavformat.xcframework"
-        ),
-        .binaryTarget(
-            name: "Libavutil",
-            path: "Sources/Libavutil.xcframework"
-        ),
-        .binaryTarget(
-            name: "Libswresample",
-            path: "Sources/Libswresample.xcframework"
-        ),
-        .binaryTarget(
-            name: "Libswscale",
-            path: "Sources/Libswscale.xcframework"
-        ),
-        .binaryTarget(
-            name: "libsrt",
-            path: "Sources/libsrt.xcframework"
+            name: "libplacebo",
+            path: "Sources/libplacebo.xcframework"
         ),
         .binaryTarget(
             name: "libzvbi",
             path: "Sources/libzvbi.xcframework"
+        ),
+        .binaryTarget(
+            name: "libsrt",
+            path: "Sources/libsrt.xcframework"
         ),
         .binaryTarget(
             name: "libfreetype",
@@ -200,8 +166,12 @@ let package = Package(
             path: "Sources/libass.xcframework"
         ),
         .binaryTarget(
-            name: "libmpv",
-            path: "Sources/libmpv.xcframework"
+            name: "libfontconfig",
+            path: "Sources/libfontconfig.xcframework"
+        ),
+        .binaryTarget(
+            name: "libbluray",
+            path: "Sources/libbluray.xcframework"
         ),
         .binaryTarget(
             name: "gmp",
@@ -214,14 +184,6 @@ let package = Package(
         .binaryTarget(
             name: "hogweed",
             path: "Sources/hogweed.xcframework"
-        ),
-        .binaryTarget(
-            name: "libfontconfig",
-            path: "Sources/libfontconfig.xcframework"
-        ),
-        .binaryTarget(
-            name: "libbluray",
-            path: "Sources/libbluray.xcframework"
         ),
         .binaryTarget(
             name: "gnutls",
