@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>libfribidi</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.kintan.ksplayer.libshaderc-combined</string>
+	<string>com.iliasak91.ffmpegkit.tvos-arm64_arm64e</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
