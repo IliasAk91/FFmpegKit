@@ -1,0 +1,10 @@
+diff a/Sources/libshaderc_combined.xcframework/ios-arm64_x86_64-simulator/libshaderc_combined.framework/Info.plist b/Sources/libshaderc_combined.xcframework/ios-arm64_x86_64-simulator/libshaderc_combined.framework/Info.plist	(rejected hunks)
+@@ -7,7 +7,7 @@
+ 	<key>CFBundleExecutable</key>
+ 	<string>libshaderc_combined</string>
+ 	<key>CFBundleIdentifier</key>
+-	<string>com.iliasak91.ffmpegkit.libshaderc</string>
++	<string>com.iliasak91.ffmpegkit.libshaderc-combined</string>
+ 	<key>CFBundleInfoDictionaryVersion</key>
+ 	<string>6.0</string>
+ 	<key>CFBundleName</key>
