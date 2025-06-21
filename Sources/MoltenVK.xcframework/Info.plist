@@ -132,7 +132,7 @@
 		</dict>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.kintan.ksplayer.libshaderc-combined</string>
+	<string>com.iliasak91.ffmpegkit.moltenvk</string>
 	<key>CFBundlePackageType</key>
 	<string>XFWK</string>
 	<key>XCFrameworkFormatVersion</key>
