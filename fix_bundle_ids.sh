@@ -19,7 +19,7 @@ replace_bundle_id() {
 
 # Define the mappings
 declare -A bundle_mappings=(
-    ["libshaderc_combined"]="com.iliasak91.ffmpegkit.libshaderc_combined"
+    ["libshaderc-combined"]="com.iliasak91.ffmpegkit.libshaderc-combined"
     ["libfontconfig"]="com.iliasak91.ffmpegkit.libfontconfig"
     ["gmp"]="com.iliasak91.ffmpegkit.gmp"
     ["gnutls"]="com.iliasak91.ffmpegkit.gnutls"
